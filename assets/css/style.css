@@ -487,13 +487,17 @@ section {
   border: 0px;
   padding: 10px;
   margin-bottom: 30px;
-  border-radius: 10px;
-  background: #bdc3c7;
-  box-shadow: inset 6px 6px 19px #a1a6a9,
-            inset -6px -6px 19px #d9e0e5;
 }
 
-@media (max-width : 992px){
+.portfolio .portfolio-item .spacing-container{
+  padding: 10px;
+  border-radius: 10px;
+  background: #bdc3c7;
+  box-shadow:  10px 10px 15px #a8aeb1,
+              -10px -10px 15px #d2d8dd;
+}
+
+@media (max-width : 1010px){
   .portfolio  {
     margin-left: 15px;
     margin-right: 15px;
