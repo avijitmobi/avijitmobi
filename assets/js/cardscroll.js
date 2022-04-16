@@ -1,6 +1,4 @@
 
-
-
 const scroll = document.querySelector(".scroll");
 var isDown = false;
 var scrollX;
