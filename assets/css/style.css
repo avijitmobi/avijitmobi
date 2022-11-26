@@ -161,7 +161,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# Header Section
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
@@ -312,12 +312,17 @@ section {
 @media (max-width : 992px){
   .about .container .row .image-container{
     margin-bottom: 10px;
+    border-radius: 10px;
   }
   .about  .content{
     margin-left: 15px;
     margin-right: 15px;
   }
 }
+
+.about .container .row .image-container .img-fluid{
+    border-radius: 10px;
+  }
 
 
 .about .content ul {
@@ -381,7 +386,7 @@ section {
 
 .auto-scroll-container {
   height:auto;
-  min-height: 50px;
+  min-height: 120px;
   margin-bottom: 30px;
   margin-top: 20px;
   position:relative; 
