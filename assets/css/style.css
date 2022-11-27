@@ -312,7 +312,9 @@ section {
 @media (max-width : 992px){
   .about .container .row .image-container{
     margin-bottom: 10px;
-    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .about  .content{
     margin-left: 15px;
@@ -322,6 +324,18 @@ section {
 
 .about .container .row .image-container .img-fluid{
     border-radius: 10px;
+    background: #bdc3c7;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: inset -13px 13px 28px #9fa4a7,
+            inset -13px -13px 28px #dbe2e7;
+    border: 0px;  
+}
+
+.about .container .row .image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
